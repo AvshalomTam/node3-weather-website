@@ -23,7 +23,7 @@ app.use(express.static(publicDirectoryPath))
 
 app.get('', (req, res) => {
     res.render('index', {
-        title: 'Weather',
+        title: 'Weather App',
         name: 'Avshalom Tam'
     })
 })
@@ -38,7 +38,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
-        message: 'This is some helpful text',
+        message: 'To get the weather forecast, go to Weather tab, insert your location inside the box and click Search!',
         name: 'Avshalom Tam'
     })
 })

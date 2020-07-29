@@ -15,6 +15,11 @@ body {
     flex-grow: 1;
 }
 
+.main-content p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
 footer {
     color: #888888;
     border-top: 1px solid #eeeeee;
@@ -26,6 +31,13 @@ header {
     margin-top: 16px;
     margin-bottom: 48px;
 }
+
+.header a {
+    font-size: 22px;
+    font-weight: bold;
+    /* text-decoration: underline; */
+    color: #be6613;
+} 
 
 h1 {
     font-size: 64px;
